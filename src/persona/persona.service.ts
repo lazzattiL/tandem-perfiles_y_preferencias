@@ -25,6 +25,8 @@ export class PersonaService {
     const nuevaPersona = new Persona
 
     nuevaPersona.id = NivelIdiomaService.nivelesIdiomas.length + 1
+    nuevaPersona.nombre = createPersonaDto.nombre
+    nuevaPersona.apellido = createPersonaDto.apellido
     
   }
   
